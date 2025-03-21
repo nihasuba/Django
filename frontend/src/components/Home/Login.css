@@ -1,0 +1,92 @@
+
+.login-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 40px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 7%;
+}
+  
+.login-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .login-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .login-label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .login-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+  }
+  
+  .login-input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-register {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .login-register a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-register a:hover {
+    text-decoration: underline;
+  }
+  .message {
+    margin: 1rem 0; /* Add space around the message */
+    padding: 0.75rem 1rem; /* Add padding inside the message box */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 1rem; /* Adjust font size */
+    font-weight: bold; /* Make the text bold */
+    text-align: center; /* Center align the text */
+  }
+  
+  .message.success {
+    color: #155724; /* Dark green text */
+    background-color: #d4edda; /* Light green background */
+    border: 1px solid #c3e6cb; /* Green border */
+  }
+  
+  .message.error {
+    color: #721c24; /* Dark red text */
+    background-color: #f8d7da; /* Light red background */
+    border: 1px solid #f5c6cb; /* Red border */
+  }

@@ -1,0 +1,55 @@
+.add-task-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 7%;
+  }
+  
+  .add-task-container h2 {
+    color: #333;
+  }
+  
+  .add-task-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-task-container input,
+  .add-task-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .add-task-container textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  .add-task-container button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .add-task-container button:hover {
+    background: #218838;
+  }
+  
+  .message {
+    margin-top: 10px;
+    color: #d9534f;
+  }
+  
