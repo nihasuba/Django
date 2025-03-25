@@ -4,7 +4,7 @@ import Home from "./components/Home/Home";
 import Footer from "./components/Home/Footer";
 import Login from "./components/Home/Login";
 import Register from "./components/Home/Register";
-import Admin from "./components/Home/admin";
+import Admin from "./components/Home/Admin";
 import Task from "./components/Home/Task";
 import Aboutus from "./components/Home/Aboutus";
 import Contactus from "./components/Home/Contactus";
@@ -12,6 +12,7 @@ import AddTask from "./components/Home/AddTask";
 import Logout from "./components/Home/Logout";
 import ViewTask from "./components/Home/ViewTask";
 import Dashboard from "./components/Home/Dashboard";
+import Edittask from "./components/Home/Edittask";
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Route path="/contact" element={<Contactus/>} />
         <Route path="/add-task" element={<AddTask />} />
         <Route path="/view-task" element={<ViewTask />} />
+        <Route path="/edit-task/:id" element={<Edittask />} />
         <Route path="/logout" element={<Logout />} />
         <Route path="/dashboard" element={<Dashboard />} />
 

@@ -26,4 +26,7 @@ class TaskSerializer(serializers.ModelSerializer):
     class Meta:
         model = Task
         fields = ['id', 'title', 'description', 'user']
+        extra_kwargs = {
+            'user': {'required': False}  # Make user field optional
+        }
 

@@ -52,7 +52,7 @@ const AddTask = () => {
                 },
             }
         );
-        console.log(response);
+        console.log(response.data);
         console.log("Task added:", response.data);
         if(response.status === 201){
           setMessage("Task Added successful!");
